@@ -1,19 +1,19 @@
 # A Kata A Day
 
 1. Sum of Two Integers.py
-   Sum of integer combinations.py
-   Catching Car Mileage Numbers.py
-   Delete occurrences of an element if it o.py
-   Duplicate Encoder.py
-   Integers: Recreation One.py
-   Moving Zeros To The End.py
-   Narsicitic Number.py
-   RGB To Hex Conversion.py
-   Simple Pig Latin.py
-   Sort the odd.py
-   Strip Comments.py
-   Write Number in Expanded Form.py
-   car.py
-   chain of function.py
-   parity outlier.py
-   sudoku.py
+2. Sum of integer combinations.py
+3. Catching Car Mileage Numbers.py
+4. Delete occurrences of an element if it o.py
+5. Duplicate Encoder.py
+6. Integers: Recreation One.py
+7. Moving Zeros To The End.py
+8. Narsicitic Number.py
+9. RGB To Hex Conversion.py
+10. Simple Pig Latin.py
+11. Sort the odd.py
+12. Strip Comments.py
+13. Write Number in Expanded Form.py
+14. car.py
+15. chain of function.py
+16. parity outlier.py
+17. sudoku.py

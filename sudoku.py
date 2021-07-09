@@ -61,10 +61,11 @@ def myValid(board):
     vAdd = 0
     print("i >", board[i])
     for j in range(len(board)):
-      hAdd += board[i][j] if board[i][j] >=1 and board[i][j] <=9 else 0
-      vAdd += board[j][i] if board[j][i] >=1 and board[j][i] <=9 else 0
+      hAdd += board[i][j] 
+      vAdd += board[j][i] 
+      if board[i][j] < 1 and board[i][j] > 9 :
+        return False
       if hAdd != 45 or vAdd != 45:
-        
         return False
 
 def validSolution(board):
@@ -87,6 +88,39 @@ def validSolution(board):
             print (hadd)
             return False
     
+    return True 
+
+
+def validSolution(board):
+
+    for i in range(len(board)):
+        hadd = 0
+        vadd = 0
+        for j in range(len(board)):
+            #vertical check
+            vadd += board[j][i]
+            #horizontal check
+            hadd += board[i][j]
+            #numbers check
+            if board[i][j] < 1 or board[i][j] > 9:
+                print(1)
+                return False
+        if vadd != 45 or hadd != 45:
+            print (2)
+            print (vadd)
+            print (hadd)
+            return False
+    for i in range(3):
+        for j in range(3):
+            gadd = 0
+            for k in range(3):
+                for l in range(3):
+                    gadd += board[i*3+k][j*3+l]
+                    if board[i][j] < 1 or board[i][j] > 9:
+                        print (3)
+                        return False
+            if gadd != 45:
+                return False
     return True 
 
 b = [
